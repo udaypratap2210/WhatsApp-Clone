@@ -1,0 +1,116 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 7;
+}
+.chat_header {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  margin-top: 8px;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 8px;
+}
+.chat_headerInfo p {
+  margin: 0px;
+  color: grey;
+}
+.chat_headerInfo h4 {
+  margin: 0px;
+}
+.chat_headerInfo {
+  padding-left: 10px;
+}
+.chat_headerLeft {
+  display: flex;
+}
+.chat_body {
+  background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+  width: 100%;
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.chat_body::-webkit-scrollbar {
+  width: 8px;
+  background-color: lightgrey;
+}
+.chat_body::-webkit-scrollbar-thumb {
+  width: 5px;
+  background-color: rgb(179, 179, 179);
+}
+.chat_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  border-top: 1px solid lightgray;
+  padding: 10px;
+}
+.chat_footer form {
+  display: flex;
+  flex-grow: 35;
+}
+
+.chat_footer input {
+  border-radius: 15px;
+  margin-left: 15px;
+  border: none;
+  flex-grow: 2;
+  height: 30px;
+  padding-left: 10px;
+}
+.chat_footer input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.chat_footer form button {
+  display: none;
+  flex-grow: 1;
+}
+.chat_footer > .MuiSvgIcon-root {
+  margin-left: 10px;
+  flex-grow: 1;
+}
+.Mic {
+  margin-right: 15px;
+  flex-grow: 1;
+}
+.chat_message {
+  position: relative;
+  font-size: 15px;
+  padding: 5px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 5px;
+  max-width: 400px;
+  min-width: 60px;
+  overflow-wrap: break-word;
+  min-height: fit-content;
+}
+.chat_message p {
+  margin-top: 0px;
+}
+.chat_receiver {
+  margin-left: auto;
+  background-color: #dcf8c6;
+  margin-right: 10px;
+  margin-top: 5px;
+  max-width: 400px;
+  min-width: 60px;
+  overflow-wrap: break-word;
+  min-height: fit-content;
+  padding-left: 10px;
+}
+
+.chat_spanTime {
+  margin-left: auto;
+  font-size: xx-small;
+  position: absolute;
+  right: 10px;
+  bottom: 6px;
+}
