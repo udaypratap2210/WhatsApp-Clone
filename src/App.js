@@ -5,7 +5,7 @@ import Chat from "./Chat";
 import { Route, Switch } from "react-router-dom";
 import Login from "./Login";
 import { useStateValue } from "./StateProvider";
-// temp comment
+
 function App() {
   const [{ user }, dispatch] = useStateValue();
 
