@@ -1,0 +1,38 @@
+.SideBarChat {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  cursor: pointer;
+  background-color: white;
+  border-bottom: 2px #686262;
+}
+.SideBarChat_UserInfo h3 {
+  margin: 0px;
+}
+.SideBarChat_UserInfo p {
+  margin: 0px;
+}
+.SideBarChat_Avatar {
+  max-height: 5px;
+}
+
+.SideBarChat_UserInfo {
+  margin-left: 15px;
+  word-wrap: break-word;
+}
+.sideBarNewChat {
+  margin-left: 50px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.hover {
+  display: flex;
+  flex-direction: column;
+}
+.hover :hover {
+  background-color: rgb(204, 204, 204);
+}
